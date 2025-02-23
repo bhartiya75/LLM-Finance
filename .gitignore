@@ -1,0 +1,7 @@
+*.db  # Ignore SQLite Databases (e.g., stocks.db if needed later)
+*.csv  # Ignore CSV data files
+results/  # Ignore training results
+logs/  # Ignore training logs
+fine_tuned_llm/  # Ignore fine-tuned model directory
+__pycache__/  # Ignore Python cache files
+*.pyc  # Ignore compiled Python files

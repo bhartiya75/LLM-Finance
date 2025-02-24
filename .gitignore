@@ -1,7 +1,13 @@
-*.db  # Ignore SQLite Databases (e.g., stocks.db if needed later)
-*.csv  # Ignore CSV data files
-results/  # Ignore training results
-logs/  # Ignore training logs
-fine_tuned_llm/  # Ignore fine-tuned model directory
-__pycache__/  # Ignore Python cache files
-*.pyc  # Ignore compiled Python files
+fine_tuned_llm_regression/
+fine_tuned_llm_mlm/
+financial_text_regression.csv
+financial_text.csv
+results_regression/
+logs_regression/
+results_mlm/
+logs_mlm/
+*.pyc
+__pycache__/
+*.log
+.DS_Store  # Ensure macOS metadata is ignored
+firm_data.csv  # Exclude raw data if sensitive
